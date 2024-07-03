@@ -1,0 +1,27 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row;
+}
+
+.main div {
+  width: 50%;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main div h1 {
+  text-align: center;
+}
+
+.resume p:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.suggestions button {
+  display: block;
+  margin: 0 auto;
+}
